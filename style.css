@@ -1,0 +1,21 @@
+.shell {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    border: 1px solid black;
+}
+
+main div {
+    width: 8px;
+    height: 8px;
+}
+
+.hovered {
+    background: black;
+}
